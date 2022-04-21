@@ -1,11 +1,12 @@
 #include<stdio.h>
 
 int main(){
-	int n = 11;
+	int n;
 	float fp = 789.123456;
 	double dp = 789.123456;
 	char c = 'M';
 	char str[50] = "Good night";
+	scanf("%d", &n);
 	printf("Integer value is %d",n);
 	printf("\nFloat value is %f",fp);
 	printf("\nDouble value is %lf",dp);
